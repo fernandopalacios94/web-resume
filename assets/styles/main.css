@@ -1,0 +1,245 @@
+html{
+	font-family: 'Fjalla One', sans-serif;
+}
+body{
+	margin: 0;
+}
+
+/*****TEXT*****/
+.text-sky{
+	color: #74BEEB;
+}
+.text-lavender{
+	color: #E0EAF9;
+}
+.text-orchid{
+	color: #D378B7;
+}
+.text-slate{
+	color: #7984D0;
+}
+.text-dark{
+	color: #3D244C;
+}
+/*****HEADER STYLES*****/
+
+.content-wide{
+	padding: 0px;
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	z-index: 1;
+}
+.header{
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+	width: 100%;
+	background-image: url('../images/header-background.png');
+}
+.header-content{
+	width:       100%;
+	text-align:  center;
+}
+.header-content .img-container{
+	display: inline-block;
+	width:   100px;
+	height:  100px;
+
+}
+
+.header-content .img-container img{
+	border-radius: 50px;
+	height:        100%;
+	width:         100%;
+	margin-top:    15px;
+}
+.header-title{
+	color: #FFFFFF;
+	padding: 10px;
+}
+.header-title h1{
+	margin: 0px;
+}
+.header-title span{
+	background-color: #3D244C;
+    padding: 3px 15px;
+}
+/*******NAVBAR STYLES*******/
+.navbar{
+	z-index: 10;
+	background-color: #74BEEB;
+	position: fixed;
+	width: 100%;
+}
+.navbar .menu-bar{
+	list-style-type:  none;
+	margin:           0;
+	padding:          0;
+	overflow:         hidden;
+	background-color: #74BEEB; 
+}
+.navbar .menu-bar .menu-item{
+	float: left;
+}
+.navbar .menu-bar .menu-item a{
+	display:         block;
+	color:        #FFFFFF;
+	text-align:      center;
+	padding:         15px;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+	transition:.5s;
+}
+.navbar .menu-bar .menu-item a:hover{
+	color: #166799;
+}
+.navbar .menu-bar .menu-item.active a{
+	color: #166799;
+}
+.navbar .menu-bar .menu-item:first-child{
+	display: none;
+}
+
+/*********MAIN CONTENT*********/
+.main{
+	width: 100%;
+}
+.main .main-content{
+	padding: 10px 40px;
+}
+.panel{
+	display: inline-block;
+	vertical-align: top;
+	overflow-y: hidden;
+	margin: 5px 10px;
+}
+.panel-header{
+	text-align: center;
+	padding: 8px;
+	border-top-left-radius:  6px;
+	border-top-right-radius: 6px;
+}
+.contact .panel:hover{
+	border: 1px #74BEEB solid;
+	border-radius: 8px;
+}
+.contact .panel:hover .panel-header{
+	color: #FFFFFF;
+	background-color: #74BEEB;
+	-o-transition:.3s;
+	-ms-transition:.3s;
+	-moz-transition:.3s;
+	-webkit-transition:.3s;
+  	/* ...and now for the proper property */
+	transition:.3s;
+}
+.interests{
+	text-align: center;
+}
+.interests h2{
+	text-align: left;
+}
+.interests .panel{
+	text-align: left;
+	width:  30%;
+	height: 440px;
+}
+.interests .panel .panel-content{
+	position: relative;
+	padding: 15px;
+	height: 100%;
+}
+.interests .panel .carousel{
+	width:  100%;
+}
+.interests .panel:hover{
+	border: 1px #7984D0 solid;
+	border-radius: 8px;
+}
+.interests .panel:hover .panel-header{
+	color: #FFFFFF;
+	background-color: #7984D0;
+	-o-transition:.3s;
+	-ms-transition:.3s;
+	-moz-transition:.3s;
+	-webkit-transition:.3s;	
+}
+.carousel{
+	width: 350px;
+	overflow-x: auto;
+	white-space: nowrap;
+	overflow-y: scroll;
+	align-content: center;
+}
+.carousel.instagram .instagram-media{
+	width: 45%!important;
+	display: inline-block;
+	margin: 5px!important;
+}
+.carousel.twitter{
+
+}
+.carousel .img-container{
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.carousel.music .img-container{
+	height: 162px;
+	width: 162px;
+	border-radius: 100px;
+}
+.carousel .img-container:last-child{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.carousel .img-container:first-child{
+	margin-left:  0px;
+	margin-right: 10px
+}
+.personal-interest .carousel .img-container img{
+	filter: grayscale(100%);
+	-o-transition:.3s;
+	-ms-transition:.3s;
+	-moz-transition:.3s;
+	-webkit-transition:.3s;
+	transition:.3s;
+}
+.personal-interest .carousel .img-container img:hover{
+	filter: none;
+}
+.carousel.music{
+	margin-top: 52px;
+}
+.carousel.music .img-container img{
+	width:  100%;
+	height: auto;
+	border-radius: 100px;
+}
+.carousel.film .img-container{
+	height: 200px;
+	width: auto;
+}
+.carousel.film .img-container img{
+	height: 100%;
+	width: auto;
+}
+.carousel.icon{
+	margin-top: 31px;
+}
+.carousel.icon .img-container{
+	height: 162px;
+	width: 162px;
+	border-radius: 100px;
+}
+.carousel.icon .img-container img{
+	width:  100%;
+	height: auto;
+	border-radius: 100px;
+}

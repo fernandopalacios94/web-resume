@@ -1,0 +1,73 @@
+@media all and (min-width: 1690px) { 
+	.carousel.music .img-container{
+		width: 158px;
+		height: 158px;
+	}
+	.carousel.icon .img-container{
+		width: 158px;
+		height: 158px;
+	}	
+
+}
+@media all and (max-width: 1280px) { 
+}
+@media all and (max-width: 980px) { 
+}
+@media all and (max-width: 736px) { 
+
+}
+@media all and (max-width: 480px) { 
+
+}
+@media all and (max-width: 380px) {
+	.main .main-content{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.section.contact{
+		padding: 5px;
+	}
+	.contact-network{
+		display: block;
+		max-height: 465px!important;
+	}
+	.contact-network:hover{
+		border: none!important;
+	}
+	.contact-network:hover .contact-header{
+		color: #000000!important;
+		background-color: #FFFFFF!important;
+	}
+	.carousel.instagram{
+		max-height: 450px;
+	}
+	.carousel.instagram .instagram-media{
+		width: 98%!important;
+		display: inline-block;
+		margin: 3px!important;
+	}
+	.navbar .menu-bar .menu-item{
+		float: none;
+		display: none;
+	}
+	.navbar .menu-bar .menu-item:first-child{
+		display: block;
+	}
+	.interests .panel{
+		display: block;
+		width: auto;
+	}
+	.interests .carousel{
+		position: relative!important;
+		bottom: 0!important;
+		width: auto
+	}
+	.carousel.music .img-container{
+		width: 145px;
+		height: 145px;
+	}
+	.carousel.icon .img-container{
+		width: 145px;
+		height: 145px;
+	}		
+}

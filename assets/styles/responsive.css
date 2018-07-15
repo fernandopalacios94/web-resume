@@ -6,8 +6,18 @@
 	.carousel.icon .img-container{
 		width: 158px;
 		height: 158px;
-	}	
+	}
 
+}
+@media all and (max-width: 1360px) {
+	.carousel.music .img-container{
+		width: 154px;
+		height: 154px;
+	}
+	.carousel.icon .img-container{
+		width: 154px;
+		height: 154px;
+	}
 }
 @media all and (max-width: 1280px) { 
 }

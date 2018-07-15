@@ -22,7 +22,10 @@ body{
 	color: #3D244C;
 }
 /*****HEADER STYLES*****/
-
+.section h2{
+	font-size: 40px;
+    margin: 15px 0px;
+}
 .content-wide{
 	padding: 0px;
 	width: 100%;
@@ -61,6 +64,7 @@ body{
 }
 .header-title h1{
 	margin: 0px;
+	font-size: 42px;
 }
 .header-title span{
 	background-color: #3D244C;
@@ -170,6 +174,10 @@ body{
 	-moz-transition:.3s;
 	-webkit-transition:.3s;	
 }
+.experience .panel{
+	display: inline-block;
+	width: 33%;
+}
 .carousel{
 	width: 350px;
 	overflow-x: auto;
@@ -215,6 +223,7 @@ body{
 	filter: none;
 }
 .carousel.music{
+	overflow-y: hidden;
 	margin-top: 52px;
 }
 .carousel.music .img-container img{
@@ -231,6 +240,7 @@ body{
 	width: auto;
 }
 .carousel.icon{
+	overflow-y: hidden;
 	margin-top: 31px;
 }
 .carousel.icon .img-container{

@@ -262,8 +262,21 @@ body{
 	height: 162px;
 	width: 162px;
 	border-radius: 100px;
+	position: relative;
+}
+.carousel.icon .img-container:hover .hover-area{
+	cursor: pointer;
+	color: #ffffff;
+	content: "HELLO!";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+	background-color: #000000;
+	z-index: 10;
 }
 .carousel.icon .img-container img{
+	z-index: 5;
 	width:  100%;
 	height: auto;
 	border-radius: 100px;
